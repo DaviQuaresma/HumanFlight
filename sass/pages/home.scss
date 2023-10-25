@@ -22,7 +22,7 @@
 
 .shortTitle {
   width: 550px;
-  margin-top: -25px;
+  margin-bottom: 25px;
 }
 
 .mediumTitle {
@@ -30,6 +30,22 @@
   margin-bottom: -25px;
 }
 
-#button {
-  padding: $padding-button;
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+
+@media (max-width) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
 }
