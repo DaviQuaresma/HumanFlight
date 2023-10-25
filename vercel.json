@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/public/dist/index.html",
+      "permanent": true
+    }
+  ]
+}
