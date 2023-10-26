@@ -2,22 +2,18 @@
   "version": 2,
   "routes": [
     {
-      "handle": "filesystem",
       "src": "/images/(.*)",
       "dest": "/images/$1"
     },
     {
-      "handle": "filesystem",
       "src": "/pages/(.*)",
       "dest": "/pages/$1"
     },
     {
-      "handle": "filesystem",
       "src": "/public/dist/(.*)",
       "dest": "/public/dist/$1"
     },
     {
-      "handle": "filesystem",
       "src": "/style/(.*)",
       "dest": "/style/$1"
     },
