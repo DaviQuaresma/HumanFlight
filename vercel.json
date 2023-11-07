@@ -1,25 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/images/(.*)",
-      "dest": "/images/$1"
-    },
-    {
-      "src": "/pages/(.*)",
-      "dest": "/pages/$1"
-    },
-    {
-      "src": "/public/dist/(.*)",
-      "dest": "/public/dist/$1"
-    },
-    {
-      "src": "/style/(.*)",
-      "dest": "/style/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/dist/index.html"
-    }
+  "redirects": [
+    { "source": "/", "destination": "/dist/index.html", "permanent": true }
   ]
 }
